@@ -220,7 +220,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 
 #### 1. Standard Academic Citation
 
-> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision/edit/main/README.md]
+> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision/tree/main]
 
 #### 2. BibTeX (For LaTeX/Overleaf Users)
 
@@ -231,7 +231,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision/edit/main/README.md}},
+  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision/tree/main}},
   note = {CC BY-NC-SA 4.0 License}
 }
 
@@ -496,7 +496,7 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
 
 #### 1. Standard Academic Citation / 标准学术引用格式
 
-> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision/edit/main/README.md]
+> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision/tree/main]
 
 #### 2. BibTeX (For LaTeX/Overleaf Users)
 
@@ -507,7 +507,7 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision/edit/main/README.md}},
+  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision/tree/main}},
   note = {CC BY-NC-SA 4.0 License}
 }
 
