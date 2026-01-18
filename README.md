@@ -170,6 +170,18 @@ Is that all? No, the most exciting part has just begun!
 
 This project is not merely about an increase in precision; it represents the total collapse of manufacturing barriers. Because the system precision (derived from **Field Statistics**) is inherently higher than the base precision (**Mechanical Base**), we can utilize a "Low-Precision Gen-1 Machine" to process "Mid-Precision Gen-2 Components," thereby achieving self-iterative precision. It is an algorithmic logic of **"creating order from chaos"**—building a high-precision civilization starting from nothing.
 
+This is the "Machine Tool Bootstrapping" logic. You don’t need high-precision equipment to start; you only need scrap materials:
+
+1. **Gen-1 (The Seed):** Built with wood and a few magnets. It uses field-averaging to generate a 0.5mm reference.
+2. **Iteration (Self-Replication):** Using the Gen-1 field as a "Magnetic Mold," we press the next generation of longer rails into place using repulsive force. Following the  law, Gen-2 precision jumps to 0.05mm.
+3. **The Loop:** Each generation machines the parts for a more precise successor. Through 3 recursive cycles, the system spontaneously collapses into nanometer-level precision.
+
+For instant high precision, you can establish a "Magnetic Standard":
+
+* **The Logic:** Even if individual magnets have 20% error, an array of 1000 magnets on a large plate will have its field fluctuations mathematically flattened by statistics.
+* **The Process:** Apply slow-curing adhesive to the base of the new rail's magnets and bring it close to this "Master Mold." In a non-contact state, the repulsive forces physically push every magnet into a perfect equilibrium position.
+* **Freezing Precision:** At the moment of curing, the virtual precision of the magnetic field is "frozen" into the physical structure, achieving sub-micron alignment with zero manufacturing loss.
+
 ---
 
 # ⚖️ Global Legal & Rights Declaration
@@ -223,7 +235,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 
 #### 1. Standard Academic Citation
 
-> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision/tree/main]
+> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision]
 
 #### 2. BibTeX (For LaTeX/Overleaf Users)
 
@@ -234,7 +246,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision/tree/main}},
+  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision}},
   note = {CC BY-NC-SA 4.0 License}
 }
 
@@ -448,6 +460,18 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
 
 本项目不仅是精度的提升，更是制造门槛的坍塌。由于系统精度（基于**磁场统计平均**）天然高于基座精度（**机械基座误差**），我们可以利用“低精度一代机”加工出“中精度二代零件”，从而实现精度的自我迭代。这是一种**“从无到有”**的算法逻辑——一套从废料中自发进化出工业文明的生产范式。
 
+你不需要预先拥有高精度设备，只需从最廉价的废料开始：
+
+1. **初代（种子阶段）：** 用木材和少量磁铁搭建，利用磁场平均效应产生 0.5mm 的基准。
+2. **迭代（自我复制）：** 利用初代磁场作为“磁力模具”，通过斥力挤压下一代更长的导轨。根据  统计规律，二代精度将跳升至 0.05mm。
+3. **闭环：** 每一代机器都在加工比自己更精密的下一代零件。通过 3 次递归，系统将自发坍缩至纳米级精度。
+
+如果你追求一步到位，可以直接建立“磁场标准器”：
+
+* **逻辑：** 即使单颗磁铁误差高达 20%，但当你在一个大平板上铺设 1000 颗磁铁时，它们产生的合场平面波动会被统计学彻底抹平。
+* **操作：** 在新导轨磁铁底部涂上慢干胶，将其靠近这个“磁场母模”。在非接触状态下，斥力会强行将所有磁铁压向物理受力平衡点。
+* **冷冻精度：** 胶水固化的瞬间，磁场赋予的虚拟精度被“冷冻”在实体结构中，实现无制造损耗的亚微米寻优。
+
 ---
 
 # ⚖️ 核心权利与全球法律准则
@@ -501,7 +525,7 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
 
 #### 1. Standard Academic Citation / 标准学术引用格式
 
-> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision/tree/main]
+> **Zeng, Hao. (2026).** *Infinite Precision Project: A New Paradigm for Precision Motion Based on Passive Field Computation and Statistical Averaging.* GitHub Repository. Available at: [https://github.com/ZengHaohei/Infinite-Precision]
 
 #### 2. BibTeX (For LaTeX/Overleaf Users)
 
@@ -512,7 +536,7 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision/tree/main}},
+  howpublished = {\url{https://github.com/ZengHaohei/Infinite-Precision}},
   note = {CC BY-NC-SA 4.0 License}
 }
 
