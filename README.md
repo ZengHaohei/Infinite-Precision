@@ -45,7 +45,7 @@ To simplify understanding for the general public: Please imagine the base magnet
 
 ---
 
-# "Error Acceptance: A New Paradigm of High-Robustness Precision Motion Based on Passive Field Computation"
+## "Error Acceptance: A New Paradigm of High-Robustness Precision Motion Based on Passive Field Computation"
 
 As long as physical constants remain unchanged, this experiment verifies that going from 0 to 1 proves that from 1 to 100 is a wide highway in principle. Subsequent engineering obstacles are conventional challenges within the known physical scope, rather than fundamental "impossibilities."
 
@@ -53,12 +53,12 @@ My contribution lies in **"Discovering the path,"** while everyone else needs to
 
 #### **Abstract: Research on Ultra-High Precision Motion Paradigms Based on Stochastic Averaging and Multi-Stage Recursive Cascading**
 
-This paper proposes and experimentally verifies a disruptive paradigm in precision motion: the shift from a "Deterministic Error Chain" to "Statistical Error Averaging." Conventional mechanical systems are constrained by the exponential cost of precision tolerances. This research demonstrates that through discrete tuning of passive magnetic fields, system errors decrease according to the  scaling law relative to the number of tuning units . By employing magnetic field shaping and spatial topological optimization, motion precision is decoupled from the macro-geometric errors of the base, providing a physical pathway to achieving sub-nanometer and even sub-atomic precision on low-cost hardware.
+This paper proposes and experimentally verifies a disruptive paradigm in precision motion: the shift from a "Deterministic Error Chain" to "Statistical Error Averaging." Conventional mechanical systems are constrained by the exponential cost of precision tolerances. This research demonstrates that through discrete tuning of passive magnetic fields, system errors decrease according to the $1/\sqrt{N}$ scaling law relative to the number of tuning units $N$. By employing magnetic field shaping and spatial topological optimization, motion precision is decoupled from the macro-geometric errors of the base, providing a physical pathway to achieving sub-nanometer and even sub-atomic precision on low-cost hardware.
 
-#### **The Six-Stage Infinite Scaling Framework**
+### **The Six-Stage Infinite Scaling Framework**
 
 * **Scheme I: First-Order Statistical Averaging Domain**
-The foundation of the infinite scaling project. By utilizing the  law, the system achieves an initial exponential leap in precision. The reliance on physical entity tolerances is broken by increasing the quantity of magnetic tuning units.
+The foundation of the infinite scaling project. By utilizing the $1/\sqrt{N}$ law, the system achieves an initial exponential leap in precision. The reliance on physical entity tolerances is broken by increasing the quantity of magnetic tuning units.
 * **Scheme II: Multi-Dimensional Spatial Averaging & Over-Constrained Coupling**
 This stage introduces Length and Width Averaging. By constraining multiple degrees of freedom (heave, sway, surge, pitch, roll, yaw), a "Spatial Averaging Effect" is constructed. This generates a **Pseudo-Pinning Effect** and over-constrained coupling, allowing multiple independent exponential scaling domains to perform multiplicative superposition upon Scheme I.
 * **Scheme III: Geometric Topology Gain & Sampling Density Expansion**
@@ -69,7 +69,7 @@ Incorporating high-permeability stainless steel (430 grade) as a **Magnetic Brid
 Leveraging the fact that the passive structure already offsets over 80% of gravity and stability requirements, low-cost active control is introduced. The system reduces the demand for high-bandwidth control; expensive systems can be replaced by budget-friendly IC circuits and capacitor arrays. Logic is used to compensate for residual physical uncertainties, performing a final collapse of the error margin.
 * **Scheme VI: Modular Recursive Cascading & Full-Spectrum Filtering**
 The ultimate evolution. The system treats each "Rectangular Module" as an independent, super-filtering unit. Multiple modules are connected via rigid or differential flexible links. Due to the non-linear, frictionless nature of the magnetic interface, error values undergo **square-order independent operations** during inter-modular transmission.
-**The Sub-Atomic Precision Conclusion:** The reason this stage reaches sub-atomic levels ($<10^{-10}$m) is that cascading acts as a **Recursive Convolution** of the error distribution. In a cascadable system, the attenuation coefficient of each module is multiplied (). Since the magnetic field is a continuous medium without the discrete "graininess" of mechanical contact, the recursive filtering of 480+ points across multiple stages causes the residual error to mathematically and physically collapse beyond the atomic scale. Even under worst-case environmental noise, the cascading filter ensures a sub-atomic theoretical resolution.
+**The Sub-Atomic Precision Conclusion:** The reason this stage reaches sub-atomic levels ($10^{-10}\text{m}$) is that cascading acts as a **Recursive Convolution** of the error distribution. In a cascadable system, the attenuation coefficient of each module is multiplied ($E_{final} = E_0 \cdot \prod A_n$). Since the magnetic field is a continuous medium without the discrete "graininess" of mechanical contact, the recursive filtering of 480+ points across multiple stages causes the residual error to mathematically and physically collapse beyond the atomic scale. Even under worst-case environmental noise, the cascading filter ensures a sub-atomic theoretical resolution.
 
 ### **Stochastic Decoupling and Cascaded Convergence: A Quantitative Precision Analysis**
 
@@ -358,7 +358,9 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 
 最后的最后为了降低普通人理解难度，请将基座磁场想象为水面，运动部件想象为船，单元误差大小就是水波纹的大小，运动部件所覆盖单元的数量就是船的大小，调谐体是一块可以将水压下分流的板子。
 
-《误差接纳：一种基于被动场计算的高鲁棒性精密运动新范式》
+---
+
+## 《误差接纳：一种基于被动场计算的高鲁棒性精密运动新范式》
 
 只要物理常数不变，本实验验证了从0到1，就证明了从1到100在原理上是一条康庄大道，后续的工程障碍是已知物理范畴内的常规挑战，而非原理性的“不可能”。
 
@@ -366,12 +368,12 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 
 #### **摘要：基于统计平均与多阶递归级联的超高精度运动范式研究**
 
-本文提出并实验验证了精密运动领域的一种颠覆性范式：从“确定性误差链”转向“统计性误差平均”。传统机械系统受限于精密公差的指数级成本增长，而本研究证明，通过被动磁场的离散调谐，系统误差随单元数量  的增加遵循  的标度律递减。通过磁场整形与空间拓扑优化，运动精度得以与基座的宏观几何误差彻底解耦，为在低成本硬件上实现亚纳米乃至亚原子级精度提供了物理路径。
+本文提出并实验验证了精密运动领域的一种颠覆性范式：从“确定性误差链”转向“统计性误差平均”。传统机械系统受限于精密公差的指数级成本增长，而本研究证明，通过被动磁场的离散调谐，系统误差随单元数量 $N$ 的增加遵循 $1/\sqrt{N}$ 的标度律递减。通过磁场整形与空间拓扑优化，运动精度得以与基座的宏观几何误差彻底解耦，为在低成本硬件上实现亚纳米乃至亚原子级精度提供了物理路径。
 
-#### **六阶递归无限精度方案说明**
+### **六阶递归无限精度方案说明**
 
 * **方案 I：一阶统计平均乘区**
-无限精度计划的基石。利用  标度律实现精度的初始指数级提升，通过增加磁性调谐单元的数量，打破对物理实体公差的依赖。
+无限精度计划的基石。利用 $1/\sqrt{N}$ 标度律实现精度的初始指数级提升，通过增加磁性调谐单元的数量，打破对物理实体公差的依赖。
 * **方案 II：多维空间平均与过约束耦合**
 引入长度平均与宽度平均维度。通过限制上下左右及旋转翻滚等多自由度，构建“空间平均效应”。实现了**伪钉扎效应**与过约束耦合，使多个独立的指数级提升乘区在方案 I 的基础上进行乘积叠加。
 * **方案 III：几何拓扑增益与采样密度扩张**
@@ -383,7 +385,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 * **方案 VI：模块化递归级联与全频段滤波**
 最终进化形态。将每一个回形模块视为一个独立的超强滤波器，通过刚性或差分连接进行多模块串联。基于非线性无摩擦特性，误差在模块传递过程中进行**平方级独立运算**。
 **亚原子精度结论解释：**
-之所以能达到亚原子级 ($<10^{-10}$m) ，是因为级联过程构成了误差分布的**递归卷积**。在级联系统中，每个模块的衰减系数是相乘关系（）。由于磁场是连续介质，不存在机械接触的原子颗粒感，多模块对 480 个采样点的递归过滤使得残余误差在数学与物理层面坍缩至原子尺度以下。即便在最恶劣的环境噪声下，级联滤波也保证了亚原子级的理论分辨率。
+之所以能达到亚原子级 ($10^{-10}\text{m}$)，是因为级联过程构成了误差分布的**递归卷积**。在级联系统中，每个模块的衰减系数是相乘关系 ($$E_{\text{终}} = E_0 \cdot \prod A_n$$)。由于磁场是连续介质，不存在机械接触的原子颗粒感，多模块对 480 个采样点的递归过滤使得残余误差在数学与物理层面坍缩至原子尺度以下。即便在最恶劣的环境噪声下，级联滤波也保证了亚原子级的理论分辨率。
 
 ### **随机解耦与级联收敛：定量精度分析报告**
 
