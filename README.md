@@ -18,14 +18,12 @@ Before sending me a lawyer's letter or initiating legal action, please first inc
 
 I do not know how people might exploit loopholes to bypass these regulations, but even if you do, your patents, papers, and other carriers must prominently cite the link to this article and include my name. However, even if you do so, I reserve the right to withdraw your publication involving this article and its extended content at any time. By basing your work on, extending, or citing this article, it means you agree to all the terms and interpretations of rights in this entire article.
 
-Now, let us begin.
-
 ### **About This Project: Paradigm Shift & Magnetic Logic**
 
 **First, you must discard your traditional engineering mindset.**
 Magnetic stiffness is **adjustable, non-linear, and frictionless**. We must perceive this technology through a corrected lens: place it on the same tier as **Superconducting Levitation, Magnetic Levitation (Maglev) Guides, and Air Bearing Stages.**
 
-**Evidence from extreme applications of the same principles:**
+### **Evidence from extreme applications of the same principles:**
 
 * **Maglev Trains**: Prove the absolute rigidity and stability of magnetic forces.
 * **Lithography (ASML) Wafer Transport Systems**: Prove their sub-nanometer precision and controllability.
@@ -33,7 +31,7 @@ Magnetic stiffness is **adjustable, non-linear, and frictionless**. We must perc
 
 **However, the hardware is merely the manifestation; the magnetic field is the soul. That is the very reason for this open-source project.**
 
-**And for Experts:**
+### **And for Experts:**
 
 * **Applied Physics/Electromagnetics:** Field synthesis of multi-magnet arrays, magnetic shielding, and shaping principles. "A programmable passive magnetic potential well topology technology is implemented, using perturbation units for local linear correction of the background field."
 * **Control Theory:** Physical structures replace software algorithms, achieving "hardware closed-loop control." "This system is essentially a feedforward-feedback composite controller based on analog computation. The metal sheet array is a solidified, adjustable 'control law matrix' that directly compensates for errors in real-time through physical means."
@@ -52,7 +50,7 @@ As long as physical constants remain unchanged, this experiment verifies that go
 
 My contribution lies in **"Discovering the path,"** while everyone else needs to **"Make the road wider and flatter."**
 
-#### **Abstract: Research on Ultra-High Precision Motion Paradigms Based on Stochastic Averaging and Multi-Stage Recursive Cascading**
+### **Abstract: Research on Ultra-High Precision Motion Paradigms Based on Stochastic Averaging and Multi-Stage Recursive Cascading**
 
 This paper proposes and experimentally verifies a disruptive paradigm in precision motion: the shift from a "Deterministic Error Chain" to "Statistical Error Averaging." Conventional mechanical systems are constrained by the exponential cost of precision tolerances. This research demonstrates that through discrete tuning of passive magnetic fields, system errors decrease according to the $1/\sqrt{N}$ scaling law relative to the number of tuning units $N$. By employing magnetic field shaping and spatial topological optimization, motion precision is decoupled from the macro-geometric errors of the base, providing a physical pathway to achieving sub-nanometer and even sub-atomic precision on low-cost hardware.
 
@@ -84,40 +82,40 @@ $$E_{final} = E_{initial} \cdot \prod_{i=1}^{m} A_i(\omega) \approx E_{initial} 
 
 Where $\alpha$ is the attenuation coefficient of a single super-filtering module. Because the magnetic field acts as a continuous flux medium, the system effectively bypasses the discrete mechanical "hard limits." Consequently, the precision limit is governed not by hardware cost, but by the **recursive convergence logic** of the magnetic topology.
 
-### **Technical FAQ: Paradigm Shift and Engineering Logic**
+## **Technical FAQ: Paradigm Shift and Engineering Logic**
 
-#### **1. Addressing Magnet Manufacturing Variance**
+### **1. Addressing Magnet Manufacturing Variance**
 
 * **The Doubt:** How can low-cost magnets with high manufacturing tolerances (>10%) ever achieve nanometer precision?
 * **The Logic:** In our stress tests using a primitive prototype, we intentionally used magnets with a 1mm height variance (a 50% difference relative to the 2mm base) and angular deviations exceeding 30°. Even under these "catastrophic" conditions, the 20-point sampling array successfully filtered the noise. Since standard manufacturing errors are far below 50%, they are treated as "negligible stochastic noise." Furthermore, **Multi-layer Aperture Shimming** creates a "Gaussian Blur" effect, physically smoothing the field before it even enters the statistical averaging stage.
 
-#### **2. Environmental Sensitivity at High Precision**
+### **2. Environmental Sensitivity at High Precision**
 
 * **The Doubt:** Won't thermal expansion and ambient vibration destroy nanometer-level stability?
 * **The Logic:** This is a matter of relative Scale and SNR. Our system is designed to suppress a macro-error of **3mm**. If the logic can neutralize a 3,000,000-nanometer physical deviation, then ambient thermal drifts or vibrations—typically in the micrometer range—are "buried" within the suppression bandwidth. We do not fight the environment; we make the system's baseline so robust that the environment becomes statistically invisible.
 
-#### **3. Parallelism and Global Deformation**
+### **3. Parallelism and Global Deformation**
 
 * **The Doubt:** What happens if the entire base warps or the guide loses parallelism?
 * **The Logic:** Local deformations are filtered by the 480-point array. Global deformations (macro-warping) result in a **Virtual Centerline Offset**. This does not require expensive active control; it can be corrected by introducing a few electromagnetic coils with simple trimming resistors. By turning a knob, you realign the virtual magnetic axis—transforming a mechanical alignment problem into a simple electrical tuning task.
 
-#### **4. Magnetic Field Ripples and Peaks**
+### **4. Magnetic Field Ripples and Peaks**
 
 * **The Doubt:** The gaps between discrete magnets must create periodic "force peaks" (ripples). How is motion smooth?
 * **The Logic:** This is resolved through **Halbach Array Topologies**. By rotating the magnetic vectors, the flux is concentrated into a continuous "Hyperplane." When combined with long-strip geometries that overlap circular arrays, the "gaps" are physically bridged. The hardware is merely the manifestation; the resulting magnetic soul is a continuous, frictionless medium.
 
-#### **5. Why don't industry giants (ASML/MRI) use this "Simple" method?**
+### **5. Why don't industry giants (ASML/MRI) use this "Simple" method?**
 
 * **The Logic:** Traditional giants prioritize **Energy Efficiency** and **Dynamic Acceleration**. MRI requires extreme field strength (Tesla-level), while Lithography requires extreme G-force. These goals require expensive active superconductors. Our project prioritizes **Precision-to-Cost Ratio**, achieving 100% of the required precision at 1% of the cost for high-precision, quasi-static motion.
 
-#### **6. Breaking the "Master Tool" Limitation**
+### **6. Breaking the "Master Tool" Limitation**
 
 * **The Doubt:** Traditional engineering states that a machine tool cannot produce a workpiece more precise than itself. If the parts are made with low-precision tools, how can the output be high-precision?
 * **The Logic:** This project breaks the **Inheritance of Error**. In traditional machining, the tool's surface is "copied" onto the workpiece. In our system, the low-precision hardware is merely a **Stochastic Seed**. The final precision is an **Emergent Property** of the field logic. Just as a rough, rusted pipe can carry a perfectly smooth stream of water, the "fluid-like" continuity of the magnetic field ignores the micro-roughness of its carrier. We are not "copying" the machine tool; we are using **Recursive Cascading** to create a new, independent coordinate system whose resolution is defined by the mathematical convergence of the field, not the physical grit of the machine tool.
 
 ---
 
-### Experimental Data and Results:
+## Experimental Data and Results:
 
 * **Experimental Materials:** Two wooden sticks (chopsticks), 1mm thickness nano-tape, 502 super glue, hard smooth plastic sheets, toothpicks, cotton string, 10*2mm round NdFeB magnets, 50*20*2mm rectangular NdFeB magnets.
 * **Total Cost:** 35 CNY (5 USD).
@@ -132,7 +130,7 @@ This experiment verifies whether the system itself can continue to be realized u
 * **Pencil lead installed near the center of the moving part to draw curves:** The pencil lead is directly inserted into the hole, is not completely fixed and will swing slightly, and the length protruding from the bottom is manually controlled.
 * **0.1mm thickness 430 stainless steel sheet used as the primary adjustment method:** Manually cut, overall shape is approximately a 1:2 rectangle, surface area is about 2c㎡ ; adjustment method: place in high magnetic field areas based on visual observation and feeling.
 
-So, under such conditions, what can we get? Below are the results:
+**So, under such conditions, what can we get? Below are the results:**
 
 https://github.com/user-attachments/assets/f9902ce0-2b31-4874-ad47-e9b70bb8b7ef
 
@@ -347,28 +345,26 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 **本项目采用 [CC BY-NC-SA 4.0 (署名-非商业性使用-相同方式共享 4.0 国际)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议发布。**
 
 **免责及沟通声明：**
-由于我不会英文，所以文章为AI翻译，并且全程AI参与内容编写，由AI自身以及翻译错误导致引用了某些专利名词或者专业名词请与AI公司进行协商，然后进行在此网站留言通知我更改，但是由于我本人不会英语，不保证正确理解其意图与正确修改文章，本人第1次主动使用此网站发布内容，此前仅为未登录状态，所以不了解网站任何功能，本人此前访问此网站平均频率是一年一次，所以对于以上错误我应该会在一年之内更改，但是可能由于网络连接问题或者其他个人原因导致延期，建议由以上原因导致的侵权行为立刻由被侵权者将此网站的侵权段落修改为无侵权版本后进行留言，之后以此留言为准，阅读者可以自行参考此正确基准。
+*由于我不会英文，所以文章为AI翻译，并且全程AI参与内容编写，由AI自身以及翻译错误导致引用了某些专利名词或者专业名词请与AI公司进行协商，然后进行在此网站留言通知我更改，但是由于我本人不会英语，不保证正确理解其意图与正确修改文章，本人第1次主动使用此网站发布内容，此前仅为未登录状态，所以不了解网站任何功能，本人此前访问此网站平均频率是一年一次，所以对于以上错误我应该会在一年之内更改，但是可能由于网络连接问题或者其他个人原因导致延期，建议由以上原因导致的侵权行为立刻由被侵权者将此网站的侵权段落修改为无侵权版本后进行留言，之后以此留言为准，阅读者可以自行参考此正确基准。*
 
 ---
 
 # 《无限精度计划:一千元实现一纳米精度》
 
-大家好我是来自中国的曾皓，我进行开源仅仅只是因为申请专利与编写论文比发现一条新道路更加困难。
+*大家好我是来自中国的曾皓，我进行开源仅仅只是因为申请专利与编写论文比发现一条新道路更加困难。*
 
-本文章及延伸内容仅以世界和平、人人平等、共同富裕为原则发布，不得用于任何恐怖活动、军事等危害世界、国家、个人、环境、动物等以及会造成这些结果的技术，其文章及延伸内容不得用于任何直接以及间接商业活动，公司禁止使用，并且对于基于这篇文章建立的相关专利以及构成的围墙我拥有无效它们的权利。
+*本文章及延伸内容仅以世界和平、人人平等、共同富裕为原则发布，不得用于任何恐怖活动、军事等危害世界、国家、个人、环境、动物等以及会造成这些结果的技术，其文章及延伸内容不得用于任何直接以及间接商业活动，公司禁止使用，并且对于基于这篇文章建立的相关专利以及构成的围墙我拥有无效它们的权利。*
 
-向我发送律师函等法律诉讼之前，请先将所涉及物理常数、宇宙规律、专业名词等纳入公司或个人所有，并且明确标注其他人不得使用，并拿出世界范围通用并且所有使用这篇文章以及延伸技术的国家以及人员接受的证明。
+*向我发送律师函等法律诉讼之前，请先将所涉及物理常数、宇宙规律、专业名词等纳入公司或个人所有，并且明确标注其他人不得使用，并拿出世界范围通用并且所有使用这篇文章以及延伸技术的国家以及人员接受的证明。*
 
-不知道人们会怎样钻空子绕过那些条例，但即使你钻空子，你的专利、论文等其他载体也必须在显眼位置引用这篇文章的链接，并且标注我的名字，然而即使你这样做了，我也需要拥有随时可以撤回你发布的涉及这篇文章以及其延伸内容的权利，只要你基于、延伸、引用这篇文章就代表你同意整篇文章的全部条款以及权力解释。
+*不知道人们会怎样钻空子绕过那些条例，但即使你钻空子，你的专利、论文等其他载体也必须在显眼位置引用这篇文章的链接，并且标注我的名字，然而即使你这样做了，我也需要拥有随时可以撤回你发布的涉及这篇文章以及其延伸内容的权利，只要你基于、延伸、引用这篇文章就代表你同意整篇文章的全部条款以及权力解释。*
 
-现在让我们开始
-
-### **关于本项目：范式转移与磁场逻辑**
+## **关于本项目：范式转移与磁场逻辑**
 
 **首先，请抛弃你的传统工程思维。**
 磁场的刚性是**可调整的、非线性的、无摩擦的**。我们需要用正确的目光来看待它：请把它放在与**超导体悬浮、磁浮导轨、气浮导轨**等精密技术相同的高度。
 
-**相同原理的极限案例举证：**
+### 相同原理的极限案例举证：
 
 * **磁悬浮列车**：验证了其刚性与稳定性。
 * **光刻机晶圆运输系统**：验证了其精准性与控制性。
@@ -376,27 +372,27 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 
 **但是硬件只是表象，磁场才是灵魂，所以才有了这个开源项目。**
 
-然后对于专家:
+### 然后对于专家:
 
-应用物理学/电磁学:多磁体阵列的场合成、磁屏蔽与整形原理。“实现了一种可编程的被动磁势阱拓扑技术，通过微扰单元对背景场进行局部线性修正。”
+* **应用物理学/电磁学:** 多磁体阵列的场合成、磁屏蔽与整形原理。“实现了一种可编程的被动磁势阱拓扑技术，通过微扰单元对背景场进行局部线性修正。”
 
-控制理论:物理结构替代了软件算法，实现了一种“硬件闭环控制”。“本系统本质是一个基于模拟计算的、前馈-反馈复合控制器。金属片阵列是固化的、可调的‘控制律矩阵’，直接以物理方式实时补偿误差。”
+* **控制理论:** 物理结构替代了软件算法，实现了一种“硬件闭环控制”。“本系统本质是一个基于模拟计算的、前馈-反馈复合控制器。金属片阵列是固化的、可调的‘控制律矩阵’，直接以物理方式实时补偿误差。”
 
-精密机械工程:运动精度的实现完全脱离了传统的阿贝误差链和刚性约束原则。“我们提出了‘机械基座误差隔离’的新范式，将导向精度与基座宏观形貌解耦，大幅降低对基础机械加工的苛刻要求。”
+* **精密机械工程:** 运动精度的实现完全脱离了传统的阿贝误差链和刚性约束原则。“我们提出了‘机械基座误差隔离’的新范式，将导向精度与基座宏观形貌解耦，大幅降低对基础机械加工的苛刻要求。”
 
-材料科学:金属片作为调谐单元，其磁导率、厚度、形状的精确利用。“我们开发了利用软磁材料微结构单元作为场调谐算子的方法，实现了磁场分布的精度整形。”
+* **材料科学:** 金属片作为调谐单元，其磁导率、厚度、形状的精确利用。“我们开发了利用软磁材料微结构单元作为场调谐算子的方法，实现了磁场分布的精度整形。”
 
-最后，还是需要质疑请花几十元复刻实验内容，然后使用实验结果反击。“实践是检验真理的唯一标准”
+*最后，还是需要质疑请花几十元复刻实验内容，然后使用实验结果反击。“实践是检验真理的唯一标准”*
 
-最后的最后为了降低普通人理解难度，请将基座磁场想象为水面，运动部件想象为船，单元误差大小就是水波纹的大小，运动部件所覆盖单元的数量就是船的大小，调谐体是一块可以将水压下分流的板子。
+*最后的最后为了降低普通人理解难度，请将基座磁场想象为水面，运动部件想象为船，单元误差大小就是水波纹的大小，运动部件所覆盖单元的数量就是船的大小，调谐体是一块可以将水压下分流的板子。*
 
 ---
 
 ## 《误差接纳：一种基于被动场计算的高鲁棒性精密运动新范式》
 
-只要物理常数不变，本实验验证了从0到1，就证明了从1到100在原理上是一条康庄大道，后续的工程障碍是已知物理范畴内的常规挑战，而非原理性的“不可能”。
+*只要物理常数不变，本实验验证了从0到1，就证明了从1到100在原理上是一条康庄大道，后续的工程障碍是已知物理范畴内的常规挑战，而非原理性的“不可能”。*
 
-我的贡献在于 “发现了那条路” ，而大家需要做的是 “把路铺得更宽更平” 。
+*我的贡献在于 “发现了那条路” ，而大家需要做的是 “把路铺得更宽更平” 。*
 
 #### **摘要：基于统计平均与多阶递归级联的超高精度运动范式研究**
 
@@ -464,7 +460,7 @@ $$E_{终} = E_{初} \cdot \prod_{i=1}^{m} A_i(\omega) \approx E_{初} \cdot (\al
 
 ---
 
-### 实验数据与结果:
+## 实验数据与结果:
 
 * **实验材料:** 两根木棍（筷子）、1mm厚度纳米胶带、502胶水、较硬的光滑塑料薄片、牙签、棉绳、10*2mm圆形钕磁铁、50*20*2mm长方形钕磁铁
 
@@ -472,21 +468,21 @@ $$E_{终} = E_{初} \cdot \prod_{i=1}^{m} A_i(\omega) \approx E_{初} \cdot (\al
 
 * **大致安装方式:** 木棍上贴上纳米胶，然后放上磁铁，圆形磁铁间距约5mm，将长方形磁铁中间隔开一些用牙签与胶水粘接，然后垂直按入只撕开一边的纳米胶上，或者说撕开另一边贴上塑料片，顶端粘上棉绳，然后两根木棍用斥力将长方形磁铁挤在中间。（注意，安装过程中要确定两根棍子都与长方形磁铁是相斥的）
 
-本次实验验证了在许多几乎不可饶恕的错误之下，系统本身能否继续实现，并验证了其非凡的鲁棒性，实验条件为以下:
+**本次实验验证了在许多几乎不可饶恕的错误之下，系统本身能否继续实现，并验证了其非凡的鲁棒性，实验条件为以下:**
 
-选用两根木棍（筷子）作为安装基座:表面粗糙度为正常木棍；木棍本身一头大一头小，约2mm平面误差；其本身为弯曲状态，中心点向下凹出从头到尾其最大点约3mm的圆弧形；另一根木棍情况相似，两根木棍本身不平行对齐，并且之间间距为大-小-大；木棍本身不固定，或者仅小面积使用1mm厚度纳米胶带固定在杯子上防止倒塌；
+* **选用两根木棍（筷子）作为安装基座:** 表面粗糙度为正常木棍；木棍本身一头大一头小，约2mm平面误差；其本身为弯曲状态，中心点向下凹出从头到尾其最大点约3mm的圆弧形；另一根木棍情况相似，两根木棍本身不平行对齐，并且之间间距为大-小-大；木棍本身不固定，或者仅小面积使用1mm厚度纳米胶带固定在杯子上防止倒塌；
 
-选用单元采用市场上购买的普通钕磁铁作为单元:其本身制造误差约大于15%；10*2mm规格圆形磁铁通过1mm厚度纳米胶带随机间距与力度的安装在木棍离中心线距离约0~3mm的位置，其纳米胶带本身是软的会受力变形，并且由于手工安装导致形变误差；人为揉搓随机大小的纸团作为垫片将圆形磁铁一边垫高，产生了随机角度、随机方向的随机高度差与平行差；
+* **选用单元采用市场上购买的普通钕磁铁作为单元:** 其本身制造误差约大于15%；10*2mm规格圆形磁铁通过1mm厚度纳米胶带随机间距与力度的安装在木棍离中心线距离约0~3mm的位置，其纳米胶带本身是软的会受力变形，并且由于手工安装导致形变误差；人为揉搓随机大小的纸团作为垫片将圆形磁铁一边垫高，产生了随机角度、随机方向的随机高度差与平行差；
 
-使用牙签组成连接运动部件:两个50*20*2mm规格长磁铁组成的运动部件本身由牙签与胶水进行粘接，牙签显然不是一个常用的连接件；由于手工安装，两个磁铁本身XYZ轴并不平行；在塑料片上粘上纳米胶带，然后将连接好的磁铁按入纳米胶内来保持稳定；实际安装后并非垂直于表面，因两边磁场作用扭曲为约60~70度角；
+* **使用牙签组成连接运动部件:** 两个50*20*2mm规格长磁铁组成的运动部件本身由牙签与胶水进行粘接，牙签显然不是一个常用的连接件；由于手工安装，两个磁铁本身XYZ轴并不平行；在塑料片上粘上纳米胶带，然后将连接好的磁铁按入纳米胶内来保持稳定；实际安装后并非垂直于表面，因两边磁场作用扭曲为约60~70度角；
 
-使用手工拉线作为进给方式:由于手工误差，其每次重复时力量、方向、距离、速度等并不一致；
+* **使用手工拉线作为进给方式:** 由于手工误差，其每次重复时力量、方向、距离、速度等并不一致；
 
-在运动部件较为中心位置打孔安装铅笔芯以绘制曲线:铅笔芯是直接插入孔中的，本身并不完全固定会一定摆动，底部伸出长度由手工控制；
+* **在运动部件较为中心位置打孔安装铅笔芯以绘制曲线:** 铅笔芯是直接插入孔中的，本身并不完全固定会一定摆动，底部伸出长度由手工控制；
 
-使用0.1mm厚度430不锈钢片作为初级调整方式:手工裁剪，总体形状约为1:2长方形，表面积约为2c㎡；调整方式为，凭肉眼观察与感觉往磁场高的区域放置；
+* **使用0.1mm厚度430不锈钢片作为初级调整方式:** 手工裁剪，总体形状约为1:2长方形，表面积约为2c㎡；调整方式为，凭肉眼观察与感觉往磁场高的区域放置；
 
-那么，在这样的条件下我们能得到什么？以下是图片与结果:
+### 那么，在这样的条件下我们能得到什么？以下是图片与结果:
 
 https://github.com/user-attachments/assets/f9902ce0-2b31-4874-ad47-e9b70bb8b7ef
 
@@ -496,21 +492,21 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
 
 ![IMG_20260112_143056](https://github.com/user-attachments/assets/e022d81e-1bd6-4454-a50e-c77e0aa773c3)
 
-每根曲线绘制都重复了约5次，通过肉眼观察是完美重叠，所以实验结果并非单次特例。
+**每根曲线绘制都重复了约5次，通过肉眼观察是完美重叠，所以实验结果并非单次特例。** 
 
-第1根曲线表明了:增加运动部件所覆盖单元数量可以在恶劣条件下的低精度基础上实现高精度；在大于3mm的各种综合误差基础上画出了平均误差约1mm的曲线。
+* **第1根曲线表明了:** 增加运动部件所覆盖单元数量可以在恶劣条件下的低精度基础上实现高精度；在大于3mm的各种综合误差基础上画出了平均误差约1mm的曲线。
 
-第2根曲线表明了:通过去除垫片以及其所带来的误差可以让精度提升，垫片带来的误差是磁场高度、角度、方向、平行误差，且这些误差本身大于磁铁制造误差15%，所以不仅证明了可以过滤制造误差还可以通过人为调整这些参数来提高精度；在减少垫片误差之后画出了平均误差约0.3mm的曲线。
+* **第2根曲线表明了:** 通过去除垫片以及其所带来的误差可以让精度提升，垫片带来的误差是磁场高度、角度、方向、平行误差，且这些误差本身大于磁铁制造误差15%，所以不仅证明了可以过滤制造误差还可以通过人为调整这些参数来提高精度；在减少垫片误差之后画出了平均误差约0.3mm的曲线。
 
-第3根曲线表明了:在第1根曲线的基础上通过使用调谐片进行磁场调节可以让精度提升；使用12片0.1mm厚度单个面积约2c㎡的430不锈钢薄片将平均误差约1mm的曲线调整为平均误差约0.5mm，一个调谐片约等于0.05mm调节精度。
+* **第3根曲线表明了:** 在第1根曲线的基础上通过使用调谐片进行磁场调节可以让精度提升；使用12片0.1mm厚度单个面积约2c㎡的430不锈钢薄片将平均误差约1mm的曲线调整为平均误差约0.5mm，一个调谐片约等于0.05mm调节精度。
 
-第4根曲线表明了:去除调谐片之后，精度还原为第1根曲线；每次基座之间的随机距离与摆放并不影响整体结果，只要在左右两边磁场的一定斥力之下，运动部件就会自动回归中心，并且前进方向由左右两边磁场组成的虚拟中心线决定。
+* **第4根曲线表明了:** 去除调谐片之后，精度还原为第1根曲线；每次基座之间的随机距离与摆放并不影响整体结果，只要在左右两边磁场的一定斥力之下，运动部件就会自动回归中心，并且前进方向由左右两边磁场组成的虚拟中心线决定。
 
-让我们回到正常一点点的手工情况:
+### 让我们回到正常一点点的手工情况:
 
 使用没有人为添加纸团垫片的那一面，由于使用的是纳米软胶，仅仅使用平整的物体压平之后，就使得圆形磁铁的平面误差小于0.2mm。
 
-然后使用镜子加激光笔放大测量:
+### 然后使用镜子加激光笔放大测量:
 
 经过镜子折射之后投射到5米的墙壁上的带有1mm刻度的十字标靶中心（经过光学杠杆10倍放大），因为只限制了左右自由度所以忽略上下抖动，激光左右跳动最大距离约等于3mm，平均跳动为2mm，除以光学杠杆之后，最大距离0.03mm，平均跳动0.02mm。
 
@@ -518,113 +514,101 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
 
 为什么还是将基准精度提高了10倍以上，因为纸团垫片本身增高了约1mm，而磁铁厚度2mm，等于一边的磁场比另外一边高1mm，1mm对于2mm是50%误差，远远大于磁铁的制造误差，所以其实制造误差本身就是可以被过滤的，而且由于纸团垫片的位置是随机的导致了每个圆形磁铁朝向不同方向偏转了二三十度以上，去掉之后因为角度偏转带来的误差也消失了，再加上磁桥缓解间隙过度带来的磁场突峰并且顺便平滑了一些磁铁制造误差带来的凹凸。
 
-现在让我们进行推理:
+### 现在让我们进行推理:
 
 然而这仅仅是两个长磁铁覆盖20个圆形磁铁的情况，只触发了统计平均与长度平均，那么只要宽度20mm的长磁铁覆盖两排直径10mm的圆形磁铁，采样点就会增加到40个，不仅增强了统计平均而且引入了宽度平均，经过一层磁桥的过滤之后0.5c㎡调节片的调节精度约等于0.004mm，采样点从20增加为40之后，调节精度增加一倍约为0.002mm，单单这样增加一排圆形磁铁，就增强了长度平均与统计平均，并且引入了宽度平均，当宽度平均与长度平均混合之后变成平面平均就大幅提升了误差过滤效果，然而两排磁铁有了更好的组合空间，一排磁铁间隔5毫米，另一排磁铁同样间隔5mm但是整体向前移动5毫米，这样长条磁铁就能随时受到三点支撑大幅提升稳定并过滤误差，最后数量的增加使得调节片的调节精度增加，原理是采样点越多调节片产生的调节效果就越小，所以采样点增加一倍，调节精度增加一倍。
 
 那么根据之前实验以及上面的推断，仅仅只是手工将磁铁用纳米胶带粘在两根木棍上并添加一些调节片，就让进度来到了0.01mm，现在加上上面的推断逻辑至少还能让精度提升10倍，也就是达到0.001mm。
 
-你可能想质疑为什么调节片的调节精度是0.002mm我却说能达到0.001mm，首先目前磁场的误差根本不会来到0.002mm，这是40个磁铁平均出来的，实际上单个磁铁15%的误差至少可以通过调节片调节到1%以下，所以说可以达到0.001mm。
+*你可能想质疑为什么调节片的调节精度是0.002mm我却说能达到0.001mm，首先目前磁场的误差根本不会来到0.002mm，这是40个磁铁平均出来的，实际上单个磁铁15%的误差至少可以通过调节片调节到1%以下，所以说可以达到0.001mm。*
 
-还是觉得质疑，那就别管推理结果，只使用上面的实验数据，5美元做到0.01mm难道还觉得不够吗。
+*还是觉得质疑，那就别管推理结果，只使用上面的实验数据，5美元做到0.01mm难道还觉得不够吗。*
 
 当然觉得不够也肯定是没有关系的，因为这是无限精度，上面的实验内容也只是在正常一点点的情况下，并且没有采用结构设计、磁场排列组合设计、模块化串并联拼装等无限方案之前的结果，虽然仅通过增加采样数也可以达到理论上的无限精度，但我的目的是低成本，所以让我们接下来继续探讨后续的无限方案。
 
-结论与展望:
+### 首先从基座开始:
 
-本研究为一个全新的精密运动设计范式提供了实验基石。将离散被动场平均原理与先进制造相结合，有望在半导体、光学及太空极端环境下催生革命性的低成本高精度设备。
+* **简单的方法:** 将木头磨平然后抛光，再进行直线度校准，这是在基准面上提高磁场平整度。
 
-其打破了传统高精度加工低精度的传统，单独增加运动部件覆盖单元数量就已经可以指数级提升精度，但是增加数量的目的是为了提升长度平均效应，而采用不同结构之后引入了上下、左右、旋转、翻滚等原理相同但方向不同的平均再次带来指数级提升，其混合而出的空间平均对于原式为乘法运算，通过调整磁场带来精度提升效应本身就是上方两个方法的计算因子。
+* **困难一点:** 如果你真的不喜欢木头，那么就把它换成花岗岩或者其他什么石头。（怎么会有人不爱木头呢？那可是由高性能低通阻尼滤波碳纤维材质组成的）
 
-所以，三个相辅相成的指数级提升，其理论精度本身就是无限，三个无限精度的方法乘法运算之后，它可以用无与伦比的的成本优势与几乎随手就能制造出的便捷方法，来达到无限精度。
+* **再困难一点:** 使用塑料或者其他什么金属，但是导磁的金属会让磁场变形，这就需要计算机模拟计算，或者其他手段进行隔离。
 
-那么，之后的道路怎么前进呢？不要慌，我已经画好了直达终点的路线。
+### 然后从磁源开始:
 
-首先从基座开始:
+* **简单的方法:** 购买或者定制制造误差小于5%的磁铁，通过选配法在多个磁铁中分组选出误差小于1%的磁铁，这从制造根本上增加了磁场平整度。
 
-简单的方法:将木头磨平然后抛光，再进行直线度校准，这是在基准面上提高磁场平整度。
+* **困难一点:** 在以上方法之后，通过测量然后使用脉冲、加热等退磁方法，人工或者自动校准局部或全部磁场，使之更加平整。
 
-困难一点:如果你真的不喜欢木头，那么就把它换成花岗岩或者其他什么石头。（怎么会有人不爱木头呢？那可是由高性能低通阻尼滤波碳纤维材质组成的）
+* **再困难一点:** 从磁场的制造源头开始优化，或者参考一些现在有的解决方法，比如可以用电磁铁或者超导体等，但是它们大部分都需要算法与软件和硬件，量产化之前较为昂贵。
 
-再困难一点:使用塑料或者其他什么金属，但是导磁的金属会让磁场变形，这就需要计算机模拟计算，或者其他手段进行隔离。
+### 再从安装方式开始:
 
-然后从磁源开始:
+* **简单的方法:** 使用硬胶或者软胶，一定的排列组合之后用笔在基座上画上线，然后直接把源粘在基座上面，经过以上的方法已经有一个较为平整的基准面，所以不用担心误差，物理与数学会原谅你。
 
-简单的方法:购买或者定制制造误差小于5%的磁铁，通过选配法在多个磁铁中分组选出误差小于1%的磁铁，这从制造根本上增加了磁场平整度。
+* **困难一点:** 挑选更合适的连接方式或者胶水，经过一定设计的排列组合，使用镊子或者其他手段保证安装精度，并且可以使用普通的垫片在磁源下方进行微量调整以保证整体平行度。
 
-困难一点:在以上方法之后，通过测量然后使用脉冲、加热等退磁方法，人工或者自动校准局部或全部磁场，使之更加平整。
+* **再困难一点:** 筛选出最合适的连接方式，计算机模拟或者寻找现有最优排列方案，自动化以提升安装精度，使用复杂手段进行安装调优。
 
-再困难一点:从磁场的制造源头开始优化，或者参考一些现在有的解决方法，比如可以用电磁铁或者超导体等，但是它们大部分都需要算法与软件和硬件，量产化之前较为昂贵。
+### 再然后是运动部件:
 
-再从安装方式开始:
+* **简单的方法:** 用塑料片或者其他什么东西保持滑块稳定。
 
-简单的方法:使用硬胶或者软胶，一定的排列组合之后用笔在基座上画上线，然后直接把源粘在基座上面，经过以上的方法已经有一个较为平整的基准面，所以不用担心误差，物理与数学会原谅你。
+* **困难一点:** 用某种能在网上查到的被动电路将滑块相对稳定在一个位置。
 
-困难一点:挑选更合适的连接方式或者胶水，经过一定设计的排列组合，使用镊子或者其他手段保证安装精度，并且可以使用普通的垫片在磁源下方进行微量调整以保证整体平行度。
+* **再困难一点:** 直接换成超导体，又或者用精密的控制以及算法加上电磁铁或者其他方式，让滑块稳定。
 
-再困难一点:筛选出最合适的连接方式，计算机模拟或者寻找现有最优排列方案，自动化以提升安装精度，使用复杂手段进行安装调优。
+### 最后是调谐体:
 
-再然后是运动部件:
+* **简单一点:** 购买剪裁好的0.5c㎡或者你喜欢大小的调谐片，然后简单测量磁力或者仅凭结果反推出需要调整的地方，放上去进行调整，也可以使用胶水或者其他东西永久固定，这样从基准面到制造再到安装一套工序下来磁场本身就已经很平了，这个时候进行微量调节却还可以让它更平。
 
-简单的方法:用塑料片或者其他什么东西保持滑块稳定。
+* **困难一点:** 第1层建议使用0.2mm厚度以上，使用定制的使用十字网格划分的36分区调谐片，将一块圆形磁铁划分为36个相等方形或者其他形状开口区域，有条件进行测量，将磁场较强的区域封闭，没条件直接安装，第2层使用较大直径有序或者无序排列的圆孔或者方孔网格调谐片，第3层使用较小直径有序或者无序排列的圆孔或者方孔网格调谐片，建议厚度层层递减。
 
-困难一点:用某种能在网上查到的被动电路将滑块相对稳定在一个位置。
+* **再困难一点:** 使用计算机模拟后定制调谐片，或者直接使用调谐体，比如可以放上之后完美将磁场调节为超平面，又或者简单一点增加层数将磁场分层打碎为“流体”
 
-再困难一点:直接换成超导体，又或者用精密的控制以及算法加上电磁铁或者其他方式，让滑块稳定。
+*这就结束了？不，最精彩的地方才刚刚开始！*
 
-最后是调谐体:
+### 可调整的部分结构:
 
-简单一点:购买剪裁好的0.5c㎡或者你喜欢大小的调谐片，然后简单测量磁力或者仅凭结果反推出需要调整的地方，放上去进行调整，也可以使用胶水或者其他东西永久固定，这样从基准面到制造再到安装一套工序下来磁场本身就已经很平了，这个时候进行微量调节却还可以让它更平。
+* **一种经典结构:** 假设基座使用宽高比2:1的长方体木头，再使用一个比它更短比它更大的长方体木头中间挖出贯穿长方形口，使之可以套入基座四边间隙保持4mm左右充当滑块，基座上表面中心对称左右各安放一排磁铁，下表面同样，左表面中心线安放一排磁铁，右表面同样，然后在滑块上挖出空缺或者干脆只剩中空结构支撑用来安放长方形磁铁，总共总共6排长方形磁铁对应六排圆形磁铁。
 
-困难一点:第1层建议使用0.2mm厚度以上，使用定制的使用十字网格划分的36分区调谐片，将一块圆形磁铁划分为36个相等方形或者其他形状开口区域，有条件进行测量，将磁场较强的区域封闭，没条件直接安装，第2层使用较大直径有序或者无序排列的圆孔或者方孔网格调谐片，第3层使用较小直径有序或者无序排列的圆孔或者方孔网格调谐片，建议厚度层层递减。
+* **伪钉扎效应:** 此结构特性，在加上物理支撑或者软件控制之后，限制了滑块上下左右旋转翻滚的自由度与超导体的钉扎效应极度相似，但是由于超导体的另一个效应导致可以在磁场表面前后移动，所以实际做到了功能基本相同。
 
-再困难一点:使用计算机模拟后定制调谐片，或者直接使用调谐体，比如可以放上之后完美将磁场调节为超平面，又或者简单一点增加层数将磁场分层打碎为“流体”
+### 可拼装的部分模块:
 
-这就结束了？不，最精彩的地方才刚刚开始！
-
-可调整的部分结构:
-
-一种经典结构:假设基座使用宽高比2:1的长方体木头，再使用一个比它更短比它更大的长方体木头中间挖出贯穿长方形口，使之可以套入基座四边间隙保持4mm左右充当滑块，基座上表面中心对称左右各安放一排磁铁，下表面同样，左表面中心线安放一排磁铁，右表面同样，然后在滑块上挖出空缺或者干脆只剩中空结构支撑用来安放长方形磁铁，总共总共6排长方形磁铁对应六排圆形磁铁。
-
-伪钉扎效应:此结构特性，在加上物理支撑或者软件控制之后，限制了滑块上下左右旋转翻滚的自由度与超导体的钉扎效应极度相似，但是由于超导体的另一个效应导致可以在磁场表面前后移动，所以实际做到了功能基本相同。
-
-可拼装的部分模块:
-
-精度提升拼装:将以上经典结构视为一个模块，两个模块平行放置连接各自的滑块，然后可以继续提升数量来提升精度。
+* **精度提升拼装:** 将以上经典结构视为一个模块，两个模块平行放置连接各自的滑块，然后可以继续提升数量来提升精度。
 
 由于之前的原理验证，两个模块的精度高于一个，然后也可以继续一直增加数量提升精度直到收益某个极限。
 
-大范围移动拼装:将两个模块按照精度提升拼装连接作为X轴，然后基座首尾两端放置在两个垂直于这两个模块的另外两个模块作为Y轴，最后按照这个方式在X轴上增加小型化模块作为Z轴。
+* **大范围移动拼装:** 将两个模块按照精度提升拼装连接作为X轴，然后基座首尾两端放置在两个垂直于这两个模块的另外两个模块作为Y轴，最后按照这个方式在X轴上增加小型化模块作为Z轴。
 
 由于之前的原理验证，这种架构最大程度上利用了所有组成架构的空间平均大幅度提升了精度表现，使得中心点的Z轴进入整个架构的“零点”。
 
-小范围移动超精度拼装:将一个模块按照3×3点阵连接，使用8个模块来过滤误差使得中间模块最高精度得到质的飞跃。
+* **小范围移动超精度拼装:** 将一个模块按照3×3点阵连接，使用8个模块来过滤误差使得中间模块最高精度得到质的飞跃。
 
-可调整的部分模式:
+### 可调整的部分模式:
 
-全被动:在滑块表面使用物理支撑的方式使之稳定，或者在左边，右边、左右两边连接上另一个模块，被连接的模块连接上固定物品、移动物品等，在动力传导时一定程度上受限于固定物品，但是由于固定物品仅支撑翻滚与旋转自由度所以影响度小于20%，80%以上靠磁场与结构自稳定，由于模块本身就是滤波器，经过一个模块的过滤之后到中心模块又能被再过滤一次最大程度上减少影响，此模式本身静止需要外力推动。
+* **全被动:** 在滑块表面使用物理支撑的方式使之稳定，或者在左边，右边、左右两边连接上另一个模块，被连接的模块连接上固定物品、移动物品等，在动力传导时一定程度上受限于固定物品，但是由于固定物品仅支撑翻滚与旋转自由度所以影响度小于20%，80%以上靠磁场与结构自稳定，由于模块本身就是滤波器，经过一个模块的过滤之后到中心模块又能被再过滤一次最大程度上减少影响，此模式本身静止需要外力推动。
 
-半被动:使用某种有关电磁铁的电路特性可以在不需要算法的情况下使滑块维持稳定悬浮，此模式本身静止，可以增加控制装置人工调节推力。
+* **半被动:** 使用某种有关电磁铁的电路特性可以在不需要算法的情况下使滑块维持稳定悬浮，此模式本身静止，可以增加控制装置人工调节推力。
 
-半主动:使用某种东西主动提供推力以及控制推力。
+* **半主动:** 使用某种东西主动提供推力以及控制推力。
 
-全主动:使用某种方式主动提高推力以及控制推力，并且使用某种方式让滑块更加稳定并再次提升精度。
+* **全主动:** 使用某种方式主动提高推力以及控制推力，并且使用某种方式让滑块更加稳定并再次提升精度。
 
-相位移动:固定滑块，使基座充当移动部件。
+* **相位移动:** 固定滑块，使基座充当移动部件。
 
-**继无限统计、无限调整、无限构架之后，真正的惊喜出现了：**
-
-**无限进化：“The Self-Evolution Path” (自举进化路径)**
+## **无限进化：“The Self-Evolution Path” (自举进化路径)**
 
 本项目不仅是精度的提升，更是制造门槛的坍塌。由于系统精度（基于**磁场统计平均**）天然高于基座精度（**机械基座误差**），我们可以利用“低精度一代机”加工出“中精度二代零件”，从而实现精度的自我迭代。这是一种**“从无到有”**的算法逻辑——一套从废料中自发进化出工业文明的生产范式。
 
-你不需要预先拥有高精度设备，只需从最廉价的废料开始：
+### 你不需要预先拥有高精度设备，只需从最廉价的废料开始：
 
-1. **初代（种子阶段）：** 用木材和少量磁铁搭建，利用磁场平均效应产生 0.5mm 的基准。
-2. **迭代（自我复制）：** 利用初代磁场作为“磁力模具”，通过斥力挤压下一代更长的导轨。根据  统计规律，二代精度将跳升至 0.05mm。
-3. **闭环：** 每一代机器都在加工比自己更精密的下一代零件。通过 3 次递归，系统将自发坍缩至纳米级精度。
+* **初代（种子阶段）：** 用木材和少量磁铁搭建，利用磁场平均效应产生 0.5mm 的基准。
+* **迭代（自我复制）：** 利用初代磁场作为“磁力模具”，通过斥力挤压下一代更长的导轨。根据  统计规律，二代精度将跳升至 0.05mm。
+* **闭环：** 每一代机器都在加工比自己更精密的下一代零件。通过 3 次递归，系统将自发坍缩至纳米级精度。
 
-如果你追求一步到位，可以直接建立“磁场标准器”：
+### 如果你追求一步到位，可以直接建立“磁场标准器”：
 
 * **逻辑：** 即使单颗磁铁误差高达 20%，但当你在一个大平板上铺设 1000 颗磁铁时，它们产生的合场平面波动会被统计学彻底抹平。
 * **操作：** 在新导轨磁铁底部涂上慢干胶，将其靠近这个“磁场母模”。在非接触状态下，斥力会强行将所有磁铁压向物理受力平衡点。
