@@ -153,6 +153,22 @@ This is a more advanced "bottom-up" approach using magnetic powder suspended in 
 
 * **The Benefit:** This creates a continuous magnetic medium rather than discrete magnets, eliminating "magnetic ripples" at the source.
 
+### **Lithography-Only Protocol (Geometric Precision)**
+
+**Logic:** Use the lithography stage as a "Nano-Positioner" to physically assemble perfection.
+
+* **The Process:** A high-precision magnetic sensor is mounted on the lithography stage. It scans the magnetic array to identify "Highs" and "Lows" in the field.
+* **The Action:** Based on the scan, the system uses the stage's nanometer-level Z-axis control to physically adjust the height or tilt of each individual magnet or shim.
+* **Result:** The "Superplane" is achieved through **Mechanical Compensation**. The physical positions of the magnets are locked once the field is measured as flat.
+
+### **MRI-Only Protocol (Energy Equilibrium)**
+
+**Logic:** Use the MRI's "Phase Mapping" to sculpt the field using magnetic resin.
+
+* **The Process:** A tray of liquid magnetic resin is placed inside the MRI. The MRI uses RF pulses (Phase Mapping) to "see" the field's unevenness.
+* **The Action:** The MRI's internal gradient coils instantly generate a "Correction Field" to flatten the potential. The tray is then moved (Relative Motion) to verify uniformity.
+* **Result:** The "Superplane" is achieved through **Field-Oriented Solidification**. The resin is cured while the MRI electronically holds the field in a perfect state.
+
 ### **Why they don't interfere?**
 
 The "interference" usually cited in industry occurs when the high-power RF pulses and superconducting magnets of an MRI disturb the sensitive electron/photon beams of a lithography machine *during operation*.
@@ -628,6 +644,22 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 * **固化：** 树脂固化（通过 UV 或加热）。完美的磁场拓扑结构现在被“冻结”在了材料的分子结构中。
 
 * **优点：** 这创造了一个连续的磁介质，而不是离散的磁铁，从源头上消除了“磁场波纹”。
+
+### **仅使用光刻机的简易方案（几何精度路径）**
+
+**逻辑：** 将光刻机台作为“纳米级定位器”，通过物理排列实现完美。
+
+* **过程：** 在光刻机工作台上安装高精度磁传感器。利用其亚纳米级的移动能力，对磁铁阵列进行全方位扫描，找出磁场的“凸点”和“凹点”。
+* **动作：** 根据扫描结果，利用机台的纳米级高度（Z轴）控制，物理性地微调每一块磁铁或调节片的高度与倾角。
+* **结果：** 通过**几何补偿**实现“超平面”。一旦测量磁场达到平整，立即锁定所有磁铁的物理位置。
+
+### **仅使用核磁共振的简易方案（能量平衡路径）**
+
+**逻辑：** 利用 MRI 自带的“相位成图”功能，引导磁性树脂自我成型。
+
+* **过程：** 将盛有液态磁性树脂的托盘放入 MRI。MRI 利用其射频脉冲（相位成图）实时“看见”场强的不均匀分布。
+* **动作：** MRI 的梯度线圈立即产生一个“修正场”将磁场拉平。通过托盘的轻微位移（相对位置测绘）验证全局平整度。
+* **结果：** 通过**场定向固化**实现“超平面”。在 MRI 电子化维持完美磁场的同时，原位固化树脂，将精度锁死。
 
 ### **为什么它们不会互相干扰？**
 
