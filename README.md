@@ -93,7 +93,7 @@ Before replication, we must create a Reference Hyperplane. This is where we extr
 ### **The Role of MRI: "The Ultimate Leveler"**
 
 * **Component Used:** Passive Shimming and Gradient Cancellation.
-* **Principle:** Based on the map provided by the lithography stage, we apply MRI's **Passive Shimming** logic. We place sub-micron ferromagnetic foils at specific coordinates to "pull" or "push" flux lines until the field gradient .
+* **Principle:** Based on the map provided by the lithography stage, we apply MRI's **Passive Shimming** logic. We place sub-micron ferromagnetic foils at specific coordinates to "pull" or "push" flux lines until the field gradient $\nabla B \approx 0$.
 * **Why it works:** MRI shimming allows us to achieve parts-per-billion (PPB) uniformity. It transforms a chaotic magnetic field into a mathematically flat potential surface.
 
 ### **Why they don't interfere?**
@@ -512,7 +512,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 ### **核磁共振（MRI）的作用：“终极平整器”**
 
 * **使用的部分：** 被动匀场（Passive Shimming）与梯度抵消技术。
-* **原理：** 根据光刻机提供的地图，应用 MRI 的**被动匀场**逻辑。我们在特定坐标放置亚微米级的铁性箔片，以“拉动”或“推开”磁力线，直到磁场梯度 。
+* **原理：** 根据光刻机提供的地图，应用 MRI 的**被动匀场**逻辑。我们在特定坐标放置亚微米级的铁性箔片，以“拉动”或“推开”磁力线，直到磁场梯度 $\nabla B \approx 0$。
 * **为什么有效：** MRI 匀场技术能实现十亿分之一（PPB）级别的均匀度。它将杂乱的磁场转化为物理意义上绝对平坦的势能表面。
 
 ### **为什么它们不会互相干扰？**
