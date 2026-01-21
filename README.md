@@ -328,7 +328,7 @@ Using the side without the artificially added paper ball spacers: Since nano-tap
 
 ### Then, we perform amplified measurement using a mirror and a laser pointer:
 
-Projected onto the center of a crosshair target with 1mm graduations on a wall 5 meters away after reflection (amplified 10x via the optical lever). Since only the lateral (left-right) degree of freedom was constrained, vertical jitter is ignored. The maximum lateral laser fluctuation was approximately 3mm, with an average fluctuation of 2mm. After dividing by the optical lever factor, the maximum physical displacement is 0.03mm, with an average of 0.02mm.
+Projected onto the center of a crosshair target with 1mm graduations on a wall 5 meters away after reflection (amplified 100x via the optical lever). Since only the lateral (left-right) degree of freedom was constrained, vertical jitter is ignored. The maximum lateral laser fluctuation was approximately 3mm, with an average fluctuation of 2mm. After dividing by the optical lever factor, the maximum physical displacement is 0.03mm, with an average of 0.02mm.
 
 ### Now, adding 0.5cm² tuning shims:
 
@@ -832,7 +832,7 @@ https://github.com/user-attachments/assets/9663c2b3-ce2d-4370-a835-37219e6c3263
 
 ### 然后使用镜子加激光笔放大测量:
 
-经过镜子折射之后投射到5米的墙壁上的带有1mm刻度的十字标靶中心（经过光学杠杆10倍放大），因为只限制了左右自由度所以忽略上下抖动，激光左右跳动最大距离约等于3mm，平均跳动为2mm，除以光学杠杆之后，最大距离0.03mm，平均跳动0.02mm。
+经过镜子折射之后投射到5米的墙壁上的带有1mm刻度的十字标靶中心（经过光学杠杆100倍放大），因为只限制了左右自由度所以忽略上下抖动，激光左右跳动最大距离约等于3mm，平均跳动为2mm，除以光学杠杆之后，最大距离0.03mm，平均跳动0.02mm。
 
 现在添加0.5c㎡调谐片，首先瞄准十字中心，然后移动一段距离后添加调谐片使激光回归中心，再移动一段距离继续添加，经过反复多次调整，最后最大误差约等于1mm与平均误差小于1mm，经经过换算之后实际结果约为0.01mm，然后使用一片长条形0.3mm厚度430不锈钢覆盖全部圆形磁铁表面搭建磁桥以平滑间隙磁场突峰之后，最大误差明显小于1mm，平均误差远远小于1mm，换算后最终精度为远小于0.01mm。
 
