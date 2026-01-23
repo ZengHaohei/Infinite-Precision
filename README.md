@@ -8,6 +8,20 @@
 
 ---
 
+**A Friendly Note on Our License**
+
+To protect the spirit of open exploration, this project is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)** license. Our primary goal is to prevent large-scale commercial entities from patenting or monopolizing this community-driven idea without contribution.
+
+**However, to our fellow builders and pioneers, our stance is open and encouraging:**
+
+1.  **For Individuals, Academics, Researchers, and Hobbyists:** You are heartily welcomed to use, modify, and build upon this design for learning, research, and personal projects.
+2.  **For Developers & Makers building prototypes, testing, and sharing improvements:** We consider you **core collaborators**. Your practical work to validate and advance this design is not considered "commercial use" in our view. We want to see your builds and learn from your results.
+3.  **For Teams or Startups with clear commercial interests:** We welcome you too! The "NonCommercial" clause is not meant to stop innovation but to ensure fair collaboration. **If you have a serious plan to develop a product or service based on this project, please contact us directly at [github].** We are happy to discuss granting a specific, free commercial-use license. Our mission is to see this idea materialize, not to create unnecessary barriers.
+
+Let's build the future, together.
+
+---
+
 ## "Infinite Precision Project: Achieving 1nm Precision for 1000 Yuan"
 
 *Hello everyone, I am Zeng Hao from China. I am open-sourcing this project simply because applying for patents and writing papers is more difficult than discovering a new path.*
@@ -620,6 +634,20 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 *向我发送律师函等法律诉讼之前，请先将所涉及物理常数、宇宙规律、专业名词等纳入公司或个人所有，并且明确标注其他人不得使用，并拿出世界范围通用并且所有使用这篇文章以及延伸技术的国家以及人员接受的证明。*
 
 *不知道人们会怎样钻空子绕过那些条例，但即使你钻空子，你的专利、论文等其他载体也必须在显眼位置引用这篇文章的链接，并且标注我的名字，然而即使你这样做了，我也需要拥有随时可以撤回你发布的涉及这篇文章以及其延伸内容的权利，只要你基于、延伸、引用这篇文章就代表你同意整篇文章的全部条款以及权力解释。*
+
+---
+
+**关于项目许可证的友好说明**
+
+为保护开放探索的精神，本项目采用 **知识共享 署名-非商业性-相同方式共享 4.0 (CC BY-NC-SA 4.0)** 许可证。我们的主要目的是防止大型商业实体在无需贡献的情况下，将这一社区驱动的想法专利化或垄断。
+
+**然而，对于我们的建造者同伴和先驱们，我们的立场是开放且鼓励的：**
+
+1.  **致个人、学者、研究员和爱好者：** 我们热忱欢迎您将本设计用于学习、研究和个人项目，可以自由使用、修改和构建。
+2.  **致那些正在构建原型、进行测试和分享改进的开发者与创客：** 我们将您视为 **核心合作者**。您为验证和推进此设计所做的实践工作，在我们看来不属于“商业用途”。我们渴望看到您的构建成果，并从您的经验中学习。
+3.  **致有明确商业意向的团队或初创公司：** 我们同样欢迎您！“非商业性”条款的目的并非阻止创新，而是为了确保公平协作。**如果您有基于本项目开发产品或服务的具体计划，请直接通过 [github] 联系我们。** 我们很乐意讨论并授予一项特定的、免费的商业使用许可。我们的使命是让想法变为现实，而非设置不必要的障碍。
+
+让我们，共同构建未来。
 
 ---
 
