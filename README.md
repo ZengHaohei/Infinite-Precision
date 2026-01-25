@@ -1,7 +1,8 @@
 ## Open Source Declaration
-[Read in English](#infinite-precision) | [跳转到中文](#开源声明)
 
 **This project is licensed under [CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).**
+
+[Read in English](#infinite-precision) | [跳转到中文](#开源声明)
 
 **Disclaimer and Communication Statement:**
 *Because I do not speak English, the article is translated by AI, and AI participated in the entire content writing process. If any patented terms or professional terms are cited due to AI errors or translation inaccuracies, please negotiate with the respective AI companies. You may leave a message on this website to notify me of necessary changes. However, as I do not speak English, I cannot guarantee a correct understanding of the intent or accurate modification of the article. This is my first time actively using this website to publish content; previously, I only visited in an unregistered state and am unfamiliar with the website's functions. My average visit frequency to this website is once a year, so I will likely address the above errors within one year, though delays may occur due to network connection issues or other personal reasons. I suggest that if any infringement occurs due to the above reasons, the infringed party should immediately modify the infringing paragraph on this website to a non-infringing version and leave a message. Subsequent actions will be based on this message, and readers may refer to this corrected baseline as a standard.*
