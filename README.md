@@ -1,6 +1,6 @@
 ## Open Source Declaration
 
-**This project is licensed under [CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).**
+**This project is licensed under [CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)](https://creativecommons.org/licenses/by-nc-sa/4.0/).**
 
 [Read in English](#infinite-precision) | [跳转到中文](#开源声明)
 
@@ -619,7 +619,7 @@ If you refer to, cite, or use the principles of the "Infinite Precision Project"
 
 ## 开源声明
 
-**本项目采用 [CC BY-NC-SA 4.0 (署名-非商业性使用-相同方式共享 4.0 国际)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议发布。**
+**本项目采用 [CC BY-NC-SA 4.0 (署名-非商业性使用-相同方式共享 4.0 国际)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议发布。**
 
 **免责及沟通声明：**
 *由于我不会英文，所以文章为AI翻译，并且全程AI参与内容编写，由AI自身以及翻译错误导致引用了某些专利名词或者专业名词请与AI公司进行协商，然后进行在此网站留言通知我更改，但是由于我本人不会英语，不保证正确理解其意图与正确修改文章，本人第1次主动使用此网站发布内容，此前仅为未登录状态，所以不了解网站任何功能，本人此前访问此网站平均频率是一年一次，所以对于以上错误我应该会在一年之内更改，但是可能由于网络连接问题或者其他个人原因导致延期，建议由以上原因导致的侵权行为立刻由被侵权者将此网站的侵权段落修改为无侵权版本后进行留言，之后以此留言为准，阅读者可以自行参考此正确基准。*
