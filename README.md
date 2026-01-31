@@ -1,5 +1,8 @@
 ## Open Source Declaration
 
+![Screenshot_20260131_193057](https://github.com/user-attachments/assets/b6baee41-e4b2-4d5c-9472-73c8280f6479)
+
+
 **This project is licensed under [CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)](https://creativecommons.org/licenses/by-nc-sa/4.0/).**
 
 [Read in English](#infinite-precision) | [跳转到中文](#开源声明)
